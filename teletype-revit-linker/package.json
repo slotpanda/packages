@@ -1,0 +1,77 @@
+{
+  "_from": "https://www.atom.io/api/packages/teletype-revit-linker/versions/1.0.0/tarball",
+  "_id": "teletype-revit-linker@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-qW5ktg6lTyjOZzFbSltBJLdApEMHQ8z+bsUgWiPYPM0B4Nt/mdj1eZb5cAuHPQ+rk1lFnDK9/vkwyx8K9pqhKw==",
+  "_location": "/teletype-revit-linker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/teletype-revit-linker/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/teletype-revit-linker/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/teletype-revit-linker/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/teletype-revit-linker/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/teletype-revit-linker/versions/1.0.0/tarball",
+  "_shasum": "9196c84f5abca35c32197e43ad0a9ac08a98e044",
+  "_spec": "https://www.atom.io/api/packages/teletype-revit-linker/versions/1.0.0/tarball",
+  "_where": "C:\\Users\\user\\AppData\\Local\\Temp\\apm-install-dir-2022616-38968-m9sxa1.p64hb",
+  "bugs": {
+    "url": "https://github.com/zachcmathews/teletype-revit-linker/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "devMode": {
+      "title": "Development Mode",
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "consumedServices": {
+    "teletype": {
+      "versions": {
+        ">=0.0.1": "consumeTeletype"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^5.1.0"
+  },
+  "deprecated": false,
+  "description": "Provides the interface between the Revit KeynotesRTC add-in and the Teletype for Atom package. Allows real-time collaboration on Revit keynote files.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/zachcmathews/teletype-revit-linker#readme",
+  "keywords": [
+    "revit",
+    "teletype-revit",
+    "revit-linker"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "teletype-revit-linker",
+  "package-deps": [
+    "teletype:0.13.4"
+  ],
+  "providedServices": {
+    "teletype-revit-linker": {
+      "description": "Provides access to teletype-revit-linker.",
+      "versions": {
+        "0.2.0": "provideTeletypeRevitLinker"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachcmathews/teletype-revit-linker.git"
+  },
+  "uriHandler": {
+    "method": "handleURI"
+  },
+  "version": "1.0.0"
+}
